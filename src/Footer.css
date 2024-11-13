@@ -1,0 +1,36 @@
+
+
+.github {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+font-size: large;
+font-weight: bold;
+height: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+    .footer{
+        position: absolute;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      bottom: 0px;
+      font-size: x-large;
+      font-weight: bold;
+      height: 40px;
+    }
+    
+}

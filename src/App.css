@@ -14,7 +14,6 @@ img {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  width: 60vw;
 }
 
 .card {
@@ -85,7 +84,7 @@ img {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   }
 
   .game-over-screen{
